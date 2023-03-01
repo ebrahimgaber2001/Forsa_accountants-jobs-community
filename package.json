@@ -10,5 +10,20 @@
   "scripts": {
     "start": "node app.js",
     "watch": "nodemon --ext js,ejs --ignore public"
-  }
+  },
+  "name": "acountant-job-oppertunities-master",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrahimgaber2001/Forsa_accountants-jobs-community.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebrahimgaber2001/Forsa_accountants-jobs-community/issues"
+  },
+  "homepage": "https://github.com/ebrahimgaber2001/Forsa_accountants-jobs-community#readme",
+  "description": ""
 }
