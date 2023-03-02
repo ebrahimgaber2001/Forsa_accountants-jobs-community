@@ -14,6 +14,9 @@
   "name": "acountant-job-oppertunities-master",
   "version": "1.0.0",
   "main": "app.js",
+  "engines": {
+    "node": "18.x"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
