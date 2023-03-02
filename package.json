@@ -5,19 +5,17 @@
     "express": "^4.17.1",
     "livereload": "^0.9.3",
     "mongoose": "^6.0.5",
-    "nodemon": "^2.0.20"
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^2.0.20",
+    "serverless-http": "^3.1.1"
   },
   "scripts": {
-    "start": "node app.js",
-    "watch": "nodemon --ext js,ejs --ignore public"
+    "build": "netlify deploy --prod",
+    "start": "node app.js"
   },
   "name": "acountant-job-oppertunities-master",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {
-    "build": "netlify deploy --prod"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebrahimgaber2001/Forsa_accountants-jobs-community.git"
